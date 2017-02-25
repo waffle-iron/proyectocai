@@ -10,5 +10,7 @@ package ProcesoBD;
  * @author miguelangelch
  */
 public class Modelos {
-    
+    public Modelos(){
+        
+    }
 }
