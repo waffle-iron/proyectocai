@@ -11,6 +11,6 @@ package ProcesoBD;
  */
 public class Modelos {
     public Modelos(){
-        
+        String Hola;
     }
 }
