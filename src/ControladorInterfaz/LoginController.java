@@ -7,10 +7,12 @@ package ControladorInterfaz;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
 
 /**
  * FXML Controller class
@@ -26,6 +28,9 @@ public class LoginController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }
+    
+    @FXML
+    private Pane loginPanel;
 
     
     @FXML
@@ -33,10 +38,14 @@ public class LoginController implements Initializable {
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
+        System.out.println("Has ingresado al sistema");
         
     }
     
+     @FXML
+    void accionSalir(ActionEvent event) {
+         Platform.exit();
+    }
   
     
 }
