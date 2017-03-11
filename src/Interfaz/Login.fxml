@@ -19,16 +19,20 @@
       </JFXButton>
       <JFXPasswordField fx:id="txtClave" focusColor="#00b0ff" labelFloat="true" layoutX="46.0" layoutY="167.0" prefHeight="27.0" prefWidth="191.0" promptText="Contraseña" />
       <JFXTextField fx:id="txtUsuario" focusColor="#00b0ff" layoutX="46.0" layoutY="108.0" prefHeight="27.0" prefWidth="191.0" promptText="Usuario" />
-      <JFXButton fx:id="btSalir" layoutX="46.0" layoutY="266.0" onAction="#accionSalir" prefHeight="26.0" prefWidth="191.0" ripplerFill="WHITE" style="-fx-background-color: #00B0FF;" text="SALIR" textFill="WHITE">
+      <JFXToolbar prefHeight="59.0" prefWidth="283.0" style="-fx-background-color: #00b0ff;">
+         <center>
+            <Label prefHeight="91.0" prefWidth="161.0" text="Bienvenido" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Droid Sans" size="32.0" />
+               </font>
+            </Label>
+         </center>
+      </JFXToolbar>
+      <JFXButton fx:id="btSalir" layoutX="46.0" layoutY="273.0" onAction="#accionSalir" prefHeight="26.0" prefWidth="191.0" ripplerFill="WHITE" style="-fx-background-color: #00B0FF;" text="SALIR" textFill="WHITE">
          <font>
             <Font name="Droid Sans Bold" size="13.0" />
          </font>
       </JFXButton>
-      <Label layoutX="61.0" layoutY="38.0" text="Bienvenido" textFill="#00b0ff">
-         <font>
-            <Font name="Droid Sans" size="32.0" />
-         </font>
-      </Label>
    </children>
    <effect>
       <DropShadow />
