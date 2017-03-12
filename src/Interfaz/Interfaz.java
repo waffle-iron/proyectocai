@@ -25,7 +25,7 @@ public class Interfaz extends Application {
         
         stage.setScene(scene);
         
-        stage.initStyle(StageStyle.UNDECORATED);
+        stage.initStyle(StageStyle.TRANSPARENT);
         stage.show();
     }
 

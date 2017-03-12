@@ -10,29 +10,25 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:id="loginPanel" prefHeight="313.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControladorInterfaz.LoginController">
+<Pane fx:id="loginPanel" prefHeight="313.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4 4 4 4; -fx-border-radius: 4 4 4 4; -fx-border-color: 00000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControladorInterfaz.LoginController">
    <children>
-      <JFXButton fx:id="btEntrar" layoutX="46.0" layoutY="232.0" onAction="#handleButtonAction" prefHeight="26.0" prefWidth="191.0" ripplerFill="WHITE" style="-fx-background-color: #00B0FF;" text="ENTRAR" textFill="WHITE">
+      <JFXButton fx:id="btEntrar" layoutX="46.0" layoutY="232.0" onAction="#handleButtonAction" prefHeight="26.0" prefWidth="191.0" ripplerFill="WHITE" style="-fx-background-color: #00B0FF; -fx-background-radius: 0 0 0 0;" text="ENTRAR" textFill="WHITE">
          <font>
             <Font name="Droid Sans Bold" size="13.0" />
          </font>
       </JFXButton>
       <JFXPasswordField fx:id="txtClave" focusColor="#00b0ff" labelFloat="true" layoutX="46.0" layoutY="167.0" prefHeight="27.0" prefWidth="191.0" promptText="Contraseña" />
       <JFXTextField fx:id="txtUsuario" focusColor="#00b0ff" layoutX="46.0" layoutY="108.0" prefHeight="27.0" prefWidth="191.0" promptText="Usuario" />
-      <JFXToolbar prefHeight="59.0" prefWidth="283.0" style="-fx-background-color: #00b0ff;">
-         <center>
-            <Label prefHeight="91.0" prefWidth="161.0" text="Bienvenido" textFill="WHITE" BorderPane.alignment="CENTER">
-               <font>
-                  <Font name="Droid Sans" size="32.0" />
-               </font>
-            </Label>
-         </center>
-      </JFXToolbar>
-      <JFXButton fx:id="btSalir" layoutX="46.0" layoutY="273.0" onAction="#accionSalir" prefHeight="26.0" prefWidth="191.0" ripplerFill="WHITE" style="-fx-background-color: #00B0FF;" text="SALIR" textFill="WHITE">
+      <JFXButton fx:id="btSalir" layoutX="46.0" layoutY="273.0" onAction="#accionSalir" prefHeight="26.0" prefWidth="191.0" ripplerFill="WHITE" style="-fx-background-color: #00B0FF; -fx-background-radius: 0 0 0 0;" text="SALIR" textFill="WHITE">
          <font>
             <Font name="Droid Sans Bold" size="13.0" />
          </font>
       </JFXButton>
+      <Label layoutX="51.0" layoutY="37.0" text="Bienvenido">
+         <font>
+            <Font name="Droid Sans" size="36.0" />
+         </font>
+      </Label>
    </children>
    <effect>
       <DropShadow />
