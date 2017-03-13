@@ -24,7 +24,7 @@ public class Interfaz extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        
+        //Esto pone la ventana transparte y sin opciones
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.show();
     }
